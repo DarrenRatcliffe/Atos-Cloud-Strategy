@@ -1,19 +1,19 @@
-importScripts( '/cache-polyfill.js' );
+importScripts( '/atos-cloud/cache-polyfill.js' );
 
 var filesToCache = [
   // root
-  '/',
-  '/index.html',
+  '/atos-cloud/',
+  '/atos-cloud/index.html',
   // css
-  '/assets/css/main.css',
-  '/assets/css/normalize.css',
-  '/assets/css/syntax.css',
+  '/atos-cloud/assets/css/main.css',
+  '/atos-cloud/assets/css/normalize.css',
+  '/atos-cloud/assets/css/syntax.css',
   // images
-  '/assets/img/octocat.png',
+  '/atos-cloud/assets/img/octocat.png',
   // pages
-  '/digital_tranformation','/example_page/','/jekyll/update/2013/11/20/welcome-to-jekyll.html',
+  '/atos-cloud/digital_tranformation','/atos-cloud/example_page/','/atos-cloud/jekyll/update/2013/11/20/welcome-to-jekyll.html',
   // posts
-  '/jekyll/update/2013/11/20/welcome-to-jekyll.html',
+  '/atos-cloud/jekyll/update/2013/11/20/welcome-to-jekyll.html',
 ];
 
 self.addEventListener( 'install', function( e ) {
