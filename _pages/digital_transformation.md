@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  "Digital transformation"
-permalink: /digital_tranformation
+# permalink: /digital_tranformation
 ---
 
 The effects of digital disruption are affecting businesses in many ways.
