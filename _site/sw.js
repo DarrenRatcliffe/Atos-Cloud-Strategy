@@ -1,19 +1,19 @@
-importScripts( 'http://acs.apps.eu01.cf.canopy-cloud.com//cache-polyfill.js' );
+importScripts( 'http://acs.apps.eu01.cf.canopy-cloud.com/cache-polyfill.js' );
 
 var filesToCache = [
   // root
-  'http://acs.apps.eu01.cf.canopy-cloud.com//',
-  'http://acs.apps.eu01.cf.canopy-cloud.com//index.html',
+  'http://acs.apps.eu01.cf.canopy-cloud.com/',
+  'http://acs.apps.eu01.cf.canopy-cloud.com/index.html',
   // css
-  'http://acs.apps.eu01.cf.canopy-cloud.com//assets/css/main.css',
-  'http://acs.apps.eu01.cf.canopy-cloud.com//assets/css/normalize.css',
-  'http://acs.apps.eu01.cf.canopy-cloud.com//assets/css/syntax.css',
+  'http://acs.apps.eu01.cf.canopy-cloud.com/assets/css/main.css',
+  'http://acs.apps.eu01.cf.canopy-cloud.com/assets/css/normalize.css',
+  'http://acs.apps.eu01.cf.canopy-cloud.com/assets/css/syntax.css',
   // images
-  'http://acs.apps.eu01.cf.canopy-cloud.com//assets/img/octocat.png',
+  'http://acs.apps.eu01.cf.canopy-cloud.com/assets/img/octocat.png',
   // pages
-  'http://acs.apps.eu01.cf.canopy-cloud.com//digital_tranformation','http://acs.apps.eu01.cf.canopy-cloud.com//example_page/','http://acs.apps.eu01.cf.canopy-cloud.com//jekyll/update/2013/11/20/welcome-to-jekyll.html',
+  'http://acs.apps.eu01.cf.canopy-cloud.com/digital_tranformation','http://acs.apps.eu01.cf.canopy-cloud.com/example_page/','http://acs.apps.eu01.cf.canopy-cloud.com/jekyll/update/2013/11/20/welcome-to-jekyll.html',
   // posts
-  'http://acs.apps.eu01.cf.canopy-cloud.com//jekyll/update/2013/11/20/welcome-to-jekyll.html',
+  'http://acs.apps.eu01.cf.canopy-cloud.com/jekyll/update/2013/11/20/welcome-to-jekyll.html',
 ];
 
 self.addEventListener( 'install', function( e ) {
