@@ -1,0 +1,1 @@
+# Atos-Cloud-Strategy
