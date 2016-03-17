@@ -17,7 +17,8 @@ subtitle: Cloud Strategy & Vision
 # When working locally use jekyll serve --baseurl '' so that you can view everything at localhost:4000
 # See http://jekyllrb.com/docs/github-pages/ for more info
 #baseurl: ''
-baseurl: 'http://acs.apps.eu01.cf.canopy-cloud.com'
+# baseurl: 'http://acs.apps.eu01.cf.canopy-cloud.com'
+baseurl: ''
 
 # Author/Organization info to be displayed in the templates
 author:

@@ -1,19 +1,19 @@
-importScripts( 'http://acs.apps.eu01.cf.canopy-cloud.com/cache-polyfill.js' );
+importScripts( '/cache-polyfill.js' );
 
 var filesToCache = [
   // root
-  'http://acs.apps.eu01.cf.canopy-cloud.com/',
-  'http://acs.apps.eu01.cf.canopy-cloud.com/index.html',
+  '/',
+  '/index.html',
   // css
-  'http://acs.apps.eu01.cf.canopy-cloud.com/assets/css/main.css',
-  'http://acs.apps.eu01.cf.canopy-cloud.com/assets/css/normalize.css',
-  'http://acs.apps.eu01.cf.canopy-cloud.com/assets/css/syntax.css',
+  '/assets/css/main.css',
+  '/assets/css/normalize.css',
+  '/assets/css/syntax.css',
   // images
-  'http://acs.apps.eu01.cf.canopy-cloud.com/assets/img/octocat.png',
+  '/assets/img/octocat.png',
   // pages
-  'http://acs.apps.eu01.cf.canopy-cloud.com/digital_tranformation','http://acs.apps.eu01.cf.canopy-cloud.com/example_page/','http://acs.apps.eu01.cf.canopy-cloud.com/jekyll/update/2013/11/20/welcome-to-jekyll.html',
+  '/digital_tranformation','/example_page/','/jekyll/update/2013/11/20/welcome-to-jekyll.html',
   // posts
-  'http://acs.apps.eu01.cf.canopy-cloud.com/jekyll/update/2013/11/20/welcome-to-jekyll.html',
+  '/jekyll/update/2013/11/20/welcome-to-jekyll.html',
 ];
 
 self.addEventListener( 'install', function( e ) {
