@@ -36,7 +36,7 @@ navigation:
   url: ./
   internal: true
 - text: Digital transformation
-  url: digital_tranformation/
+  url: digital_transformation/
   internal: true
 - text: Example Page
   url: example_page/
